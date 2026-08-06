@@ -7,7 +7,7 @@
 A responsive weather application that provides real-time weather updates, forecasts, Air Quality Index (AQI), and location-based weather information using the OpenWeatherMap API.
 
 🌐 **Live Demo**  
-https://skycast-online.vercel.app/
+https://skycast-online.vercel.app
 
 📂 **Repository**  
 https://github.com/Aryansh1727/SkyCast-Weather
@@ -95,7 +95,7 @@ Simply open the `index.html` file in your browser.
 This project uses the **OpenWeatherMap API**.
 
 1. Create an account at:
-   https://openweathermap.org/
+   https://openweathermap.org
 
 2. Generate your API Key.
 
