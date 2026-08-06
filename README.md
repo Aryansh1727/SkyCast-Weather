@@ -14,6 +14,7 @@ A responsive weather application that provides real-time weather updates, foreca
 🌐 **Live Demo:** [skycast-online.vercel.app](https://skycast-online.vercel.app)
 
 📂 **Repository:** [SkyCast-Weather](https://github.com/Aryansh1727/SkyCast-Weather)
+
 🛠 **Tech Stack**  
 HTML5 • CSS3 • JavaScript • OpenWeatherMap API • Fetch API • LocalStorage
 
