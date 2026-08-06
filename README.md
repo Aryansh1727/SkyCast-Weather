@@ -17,10 +17,6 @@ A modern weather dashboard providing real-time weather, forecasts, AQI, and loca
 
 📂 **Repository:** [SkyCast-Weather](https://github.com/Aryansh1727/SkyCast-Weather)
 
-## ✨ Highlights
-
-🌤 **Live Weather** • 📅 **5-Day Forecast** • 🌫 **AQI** • 📍 **Current Location** • 🎤 **Voice Search** • ❤️ **Favorites** • 🌙 **Dark Mode** • 📱 **Responsive UI**
-
 🛠 **Tech Stack**  
 HTML5 • CSS3 • JavaScript • OpenWeatherMap API • Fetch API • LocalStorage
 
