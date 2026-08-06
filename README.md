@@ -99,7 +99,7 @@ SkyCast-Weather
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/Aryansh1727/SkyCast-Weather.git
+git clone https://github.com/Aryansh1727/SkyCast-Weather
 ```
 
 ## Navigate to the Project
