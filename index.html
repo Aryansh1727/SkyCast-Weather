@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="weather.png" type="image/png">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+        <div id="weatherAnimation"></div>
+    </div>
+
+    <div class="container">
+        <div class="weather-card">
+            <div class="header">
+                <div>
+                    <h1>
+                        <i class="fa-solid fa-cloud-sun"></i>
+                         SkyCast 
+                    </h1>
+                    <p class="subtitle">
+                        Real-Time Weather Dashboard
+                    </p>
+                </div>
+                <div class="header-buttons">
+                    <button id="themeBtn"
+                            title="Toggle Theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+
+                    <button id="voiceBtn"
+                            title="Voice Search">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="city"
+                    placeholder="Search City...">
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button id="locationBtn">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </button>
+            </div>
+
+            <div id="loading">
+                <div class="spinner"></div>
+                <p>Fetching weather...</p>
+            </div>
+
+            <div id="error"></div>
+            <div id="weatherResult">
+                <div class="date-time">
+                    <p id="currentDate"></p>
+                    <p id="currentTime"></p>
+                    <p id="lastUpdated"></p>
+                </div>
+
+                <img
+                    id="weatherIcon"
+                    src=""
+                    alt="Weather Icon"
+                    loading="lazy">
+                <div class="city-container">
+                    <h2 id="cityName"></h2>
+                    <button id="favoriteBtn" title="Add to Favorites">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h1 id="temperature"></h1>
+                <p id="condition"></p>
+
+                <div class="unit-toggle">
+                    <button id="celsiusBtn">
+                        °C
+                    </button>
+                    <button id="fahrenheitBtn">
+                        °F
+                    </button>
+                </div>
+                
+                <div class="details">
+                    <div class="box">
+                        <i class="fa-solid fa-temperature-half"></i>
+                        <h3>Feels Like</h3>
+                        <p id="feelsLike"></p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-droplet"></i>
+                        <h3>Humidity</h3>
+                        <p id="humidity"></p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-wind"></i>
+                        <h3>Wind</h3>
+                        <p id="wind"></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-regular fa-compass"></i>
+                        <h3>Direction</h3>
+                        <p id="direction"></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        <h3>Pressure</h3>
+                        <p id="pressure"></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-eye"></i>
+                        <h3>Visibility</h3>
+                        <p id="visibility"></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-sun"></i>
+                        <h3>Sunrise</h3>
+                        <p id="sunrise"></p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-moon"></i>
+                        <h3>Sunset</h3>
+                        <p id="sunset"></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <section class="forecast">
+                <h2>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    5-Day Forecast
+                </h2>
+                <div id="forecastContainer">
+                </div>
+
+            </section>
+
+            <section class="hourly">
+                <h2>
+                    <i class="fa-solid fa-clock"></i>
+                    Hourly Forecast
+                </h2>
+
+                <div id="hourlyContainer">
+                </div>
+            </section>
+
+            <section class="aqi">
+                <h2>
+                    <i class="fa-solid fa-leaf"></i>
+                    Air Quality
+                </h2>
+
+                <div id="aqiCard">
+                </div>
+            </section>
+
+            <section class="history">
+                <div class="history-header">
+                    <h2>
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        Recent Searches
+                    </h2>
+                    <button id="clearHistory">
+                        Clear
+                    </button>
+                </div>
+                <ul id="historyList">
+                </ul>
+            </section>
+
+            <section class="favorites">
+                <div class="history-header">
+                    <h2>
+                        <i class="fa-solid fa-heart"></i>
+                        Favorite Cities
+                    </h2>
+                </div>
+                <ul id="favoriteList">
+                </ul>
+            </section>
+
+            <footer>
+                    <p>&copy; <span id="year"></span> Aryan Bharadwaj. Designed with precision.</p>
+            </footer>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+    <button id="scrollTopBtn" title="Go to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
