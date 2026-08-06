@@ -8,12 +8,17 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-A responsive weather application that provides real-time weather updates, forecasts, Air Quality Index (AQI), and location-based weather information using the OpenWeatherMap API.
+A modern weather dashboard providing real-time weather, forecasts, AQI, and location-based weather using the OpenWeatherMap API.
 
 🌐 **Live Demo:** [skycast-online.vercel.app](https://skycast-online.vercel.app)
 
 📂 **Repository:** [SkyCast-Weather](https://github.com/Aryansh1727/SkyCast-Weather)
+
+## ✨ Highlights
+
+🌤 **Live Weather** • 📅 **5-Day Forecast** • 🌫 **AQI** • 📍 **Current Location** • 🎤 **Voice Search** • ❤️ **Favorites** • 🌙 **Dark Mode** • 📱 **Responsive UI**
 
 🛠 **Tech Stack**  
 HTML5 • CSS3 • JavaScript • OpenWeatherMap API • Fetch API • LocalStorage
@@ -97,7 +102,7 @@ Simply open the `index.html` file in your browser.
 
 This project uses the **OpenWeatherMap API**.
 
-1. Create an account at:
+1. Get a free API key from:
    https://openweathermap.org
 
 2. Generate your API Key.
@@ -143,6 +148,8 @@ While developing SkyCast, I gained practical experience in:
 # 👨‍💻 Author
 
 **Aryan Bharadwaj**
+
+🎓 B.Tech CSE Student
 
 - GitHub: https://github.com/Aryansh1727
 - Portfolio: https://aryan-personal-portfolio.vercel.app
