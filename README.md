@@ -20,49 +20,18 @@ The application focuses on providing accurate weather information with a visuall
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-### 🌤 Weather Information
-- Current Temperature
-- Weather Condition
-- Feels Like Temperature
-- Humidity
-- Atmospheric Pressure
-- Visibility
-- Wind Speed
-- Wind Direction
-- Sunrise & Sunset Time
-
-### 📅 Forecast
-- 5-Day Weather Forecast
-- Hourly Weather Forecast
-- Dynamic Weather Icons
-
-### 🌫 Air Quality
-- Real-Time Air Quality Index (AQI)
-- AQI Category with Color Indicators
-
-### 📍 Smart Features
-- Search Weather by City Name
-- Current Location Weather
-- Voice Search
-- Search Using Enter Key
-
-### ❤️ Personalization
-- Add & Remove Favorite Cities
-- Recent Search History
-- Dark / Light Mode
-- Theme Preference Saved Using Local Storage
-
-### 🎨 User Interface
-- Glassmorphism Design
-- Responsive Layout
-- Animated Weather Backgrounds
-- Loading Spinner
-- Toast Notifications
-- Scroll-To-Top Button
-- Smooth Hover Effects
-- Mobile Friendly Design
+- 🌤 Real-Time Weather Updates
+- 📅 5-Day & Hourly Forecast
+- 🌫 Air Quality Index (AQI)
+- 📍 Current Location Weather
+- 🎤 Voice Search
+- ❤️ Favorite Cities
+- 🕒 Recent Search History
+- 🌙 Dark / Light Mode
+- 🎨 Animated & Responsive UI
+- ⚡ Fast API Integration
 
 ---
 
