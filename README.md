@@ -1,6 +1,6 @@
-# 🌦 SkyCast
-
 <div align="center">
+   
+# 🌦 SkyCast
 
 ### Modern Real-Time Weather Dashboard
 
@@ -99,7 +99,7 @@ SkyCast-Weather
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/Aryansh1727/SkyCast-Weather
+git clone https://github.com/Aryansh1727/SkyCast-Weather.git
 ```
 
 ## Navigate to the Project
@@ -166,7 +166,7 @@ While developing SkyCast, I gained practical experience in:
 **Aryan Bharadwaj**
 
 - GitHub: https://github.com/Aryansh1727
-- Portfolio: https://aryan-personal-portfolio.vercel.app/
+- Portfolio: https://aryan-personal-portfolio.vercel.app
 
 ---
 
