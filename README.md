@@ -11,12 +11,9 @@
 
 A responsive weather application that provides real-time weather updates, forecasts, Air Quality Index (AQI), and location-based weather information using the OpenWeatherMap API.
 
-🌐 **Live Demo**  
-https://skycast-online.vercel.app
+🌐 **Live Demo:** [skycast-online.vercel.app](https://skycast-online.vercel.app)
 
-📂 **Repository**  
-https://github.com/Aryansh1727/SkyCast-Weather
-
+📂 **Repository:** [SkyCast-Weather](https://github.com/Aryansh1727/SkyCast-Weather)
 🛠 **Tech Stack**  
 HTML5 • CSS3 • JavaScript • OpenWeatherMap API • Fetch API • LocalStorage
 
